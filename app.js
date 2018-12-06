@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var session=require('express-session');
 var app = express();
-mongoose.connect('mongodb://127.0.0.1/studyNodedb');
+mongoose.connect('mongodb://moethanhtike:moe123@myo@ds.mlab.com:45347/studynode1');
 var db=mongoose.connection;
 db.on('error',console.error.bind(console,'MongoDB connection error: '));
 // view engine setupe
